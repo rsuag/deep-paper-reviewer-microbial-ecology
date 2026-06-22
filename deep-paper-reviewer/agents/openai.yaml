@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Paper Reviewer"
+  short_description: "Review environmental microbial ecology manuscripts"
+  default_prompt: "Use $deep-paper-reviewer to audit and revise this environmental microbial ecology manuscript with claim-to-evidence traceability."
