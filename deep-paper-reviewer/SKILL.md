@@ -15,6 +15,7 @@ description: Deep scientific review, evidence audit, and constrained revision fo
    - For editing or reviewer responses, read [revision-protocol.md](references/revision-protocol.md).
    - For modes and output schemas, read [modes-and-output.md](references/modes-and-output.md).
 4. Run `scripts/audit_manuscript.py` on DOCX, Markdown, or text manuscripts when local file access is available. Treat its findings as screening signals, not final scientific judgments.
+5. When the user requests a STREAMS reporting review, run `scripts/streams_map.py` on the manuscript and check each candidate against the official STREAMS guidelines. The script covers eight selected items; inspect other applicable items manually. Record evidence locations, unresolved gaps, and items the author judges not applicable. Do not infer completeness from a keyword match or assign a compliance score.
 
 ## Evidence-First Workflow
 

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this repository and cite the STREAMS paper separately when using the guidelines."
+title: "Deep Paper Reviewer for Environmental Microbial Ecology"
+type: software
+authors:
+  - family-names: Su
+    given-names: Ruilin
+url: "https://github.com/rsuag/deep-paper-reviewer-microbial-ecology"
